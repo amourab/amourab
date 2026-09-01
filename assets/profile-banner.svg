@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Abiodun Alabi — Data Engineering, Machine Learning and Digital Health</title>
+  <desc id="desc">A dark blue data-themed profile banner with an AA monogram, neural-network nodes and a rising analytical line.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071426"/>
+      <stop offset="0.55" stop-color="#0b2850"/>
+      <stop offset="1" stop-color="#063b47"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2388ff"/>
+      <stop offset="0.52" stop-color="#18c8d4"/>
+      <stop offset="1" stop-color="#25df8f"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#70b7ff" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <circle cx="1085" cy="58" r="155" fill="#0ed6b0" opacity=".06"/>
+  <circle cx="78" cy="330" r="190" fill="#277eff" opacity=".08"/>
+
+  <g transform="translate(82 70)">
+    <path d="M16 208 95 18h54l79 190h-54l-17-43H85l-17 43Zm87-89h36l-18-51Z" fill="#2490ff"/>
+    <path d="M132 208 211 18h54l79 190h-54l-17-43h-72l-17 43Zm87-89h36l-18-51Z" fill="#20d892" opacity=".92"/>
+    <path d="m48 169 52-44 42 23 55-67 41 25 68-70" fill="none" stroke="url(#accent)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+    <g fill="#fff">
+      <circle cx="48" cy="169" r="7"/><circle cx="100" cy="125" r="7"/><circle cx="142" cy="148" r="7"/><circle cx="197" cy="81" r="7"/><circle cx="238" cy="106" r="7"/><circle cx="306" cy="36" r="7"/>
+    </g>
+  </g>
+
+  <g opacity=".34" stroke="#67e8f9" stroke-width="2">
+    <path d="M930 82 1010 128 1098 88M1010 128l-24 91 96 55m16-186-16 186m-96-55-72 50"/>
+  </g>
+  <g fill="#71f3d0" opacity=".8">
+    <circle cx="930" cy="82" r="5"/><circle cx="1010" cy="128" r="7"/><circle cx="1098" cy="88" r="5"/><circle cx="986" cy="219" r="6"/><circle cx="1082" cy="274" r="8"/><circle cx="914" cy="269" r="5"/>
+  </g>
+
+  <text x="470" y="132" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="1">ABIODUN ALABI</text>
+  <rect x="472" y="157" width="560" height="4" rx="2" fill="url(#accent)"/>
+  <text x="470" y="209" fill="#b9d8ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" letter-spacing="3">DATA ENGINEERING  ·  MACHINE LEARNING</text>
+  <text x="470" y="252" fill="#77ead3" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="3">DEEP LEARNING  ·  DIGITAL HEALTH</text>
+  <text x="470" y="304" fill="#93aeca" font-family="Segoe UI, Arial, sans-serif" font-size="18" letter-spacing="1.4">MSc Data Science  |  St. John's, Newfoundland and Labrador</text>
+</svg>
