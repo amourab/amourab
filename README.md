@@ -41,7 +41,7 @@ I hold an MSc in Data Science from Memorial University of Newfoundland and bring
 
 `Data engineering` · `Statistical inference` · `Classification` · `Regression` · `Cluster analysis` · `Time series` · `CNNs` · `Neural networks` · `Gradient methods` · `Model evaluation` · `Epidemiology` · `Data quality`
 
-## MSc-level data science and statistics
+## Data science and statistics
 
 | Work | Technical depth |
 |:---|:---|
