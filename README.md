@@ -1,10 +1,10 @@
 <div align="center">
 
-# Abiodun Alabi
+<img src="./assets/profile-banner.svg" alt="Abiodun Alabi — Data Engineering, Machine Learning, Deep Learning and Digital Health" width="100%" />
 
-### Data Engineering · Analysis · Deep Learning · Digital Health Systems
+### Data Engineering · Machine Learning · Statistical Modelling · Deep Learning
 
-I build data products that help people understand what is happening, why it matters, and what to do next.
+I work across the full data cycle—from designing dependable data systems to statistical inference, machine learning, neural networks, computer vision, and decision-focused products.
 
 [![Location](https://img.shields.io/badge/St.%20John's%2C%20NL-Canada-0B5CAD?style=flat-square)](https://www.google.com/maps/place/St.+John's,+NL/)
 [![Portfolio](https://img.shields.io/badge/Tableau-Public-E97627?style=flat-square&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/alabi.abiodun/vizzes)
@@ -19,7 +19,7 @@ I build data products that help people understand what is happening, why it matt
 
 ## About me
 
-I am a data professional with a background spanning data engineering, analysis, epidemiology, database systems, digital health, cloud services, and technical delivery. Much of my career has involved turning complex programme and operational data into systems that teams can rely on—from Nigeria's national HIV information platforms to statistical models, business intelligence dashboards, and data-driven products.
+I am a data professional with a background spanning data engineering, statistical analysis, machine learning, epidemiology, database systems, digital health, cloud services, and technical delivery. Much of my career has involved turning complex programme and operational data into systems that teams can rely on—from Nigeria's national HIV information platforms to stochastic models, classification systems, computer-vision models, business intelligence dashboards, and data-driven products.
 
 I hold an MSc in Data Science from Memorial University of Newfoundland and bring more than 15 years of experience across public health, technology, and organisational data systems. I am now based in St. John's, Newfoundland and Labrador.
 
@@ -39,31 +39,33 @@ I hold an MSc in Data Science from Memorial University of Newfoundland and bring
   <img src="https://img.shields.io/badge/Microsoft%20365-D83B01?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft 365" />
 </p>
 
-`Data modelling` · `ETL and migration` · `Statistical analysis` · `Epidemiology` · `Time series` · `Machine learning` · `Deep learning` · `DAX` · `Power Query` · `Dashboard design` · `Data quality` · `Cloud systems`
+`Data engineering` · `Statistical inference` · `Classification` · `Regression` · `Cluster analysis` · `Time series` · `CNNs` · `Neural networks` · `Gradient methods` · `Model evaluation` · `Epidemiology` · `Data quality`
 
-## Technical work by area
+## MSc-level data science and statistics
 
-| Area | Selected work and methods |
+| Work | Technical depth |
 |:---|:---|
-| **R and statistical computing** | Apple stock-volatility modelling with `stochvol`; healthcare-data preparation with `tidyverse` and `lubridate`; data-quality checks, joins, time-based summaries, and reproducible visual analysis with `ggplot2` |
-| **Power BI** | Healthcare, diabetes-risk, mental-health, and operational reporting; star-schema modelling, date tables, Power Query, DAX measures, filter context, drill-down analysis, KPI design, and source reconciliation |
-| **Excel** | Financial-statement reconciliation, premium and transaction analysis, controlled transformations, PivotTables, validation rules, audit trails, discrepancy checks, schema design, and multi-workbook data migration |
-| **Epidemiology** | HIV surveillance and projection work using incidence, prevalence, denominators, case definitions, age standardisation, sensitivity and specificity, trend interpretation, and programme-level data-quality checks |
+| **SVHN Multi-Digit House Number Recognition** | Prepared the original Street View House Numbers data using bounding-box annotations to isolate complete number sequences. Built training, validation, and test sets of **84,016**, **9,336**, and **13,066** images, resized to `64 × 128`, with sequences of up to four digits. |
+| **Convolutional Neural Network for Sequence Recognition** | Developed a multi-output CNN for digit-sequence prediction using ten real digit classes per position. Applied masked loss for inactive positions and selected checkpoints using validation macro sequence accuracy. |
+| **Computer-Vision Model Evaluation** | Evaluated exact-sequence accuracy, character accuracy, number-length accuracy, per-position performance, per-length performance, and confusion matrices rather than relying on one headline metric. |
+| **Machine-Learning Classification and Regression** | Worked through feature preparation, train/validation/test design, cross-validation, model comparison, overfitting control, and evaluation using accuracy, precision, recall, confusion matrices, residual behaviour, and error analysis. |
+| **Gradient-Based Learning** | Applied gradient-driven optimisation concepts to loss minimisation, backpropagation, learning-rate behaviour, convergence, regularisation, and neural-network training. |
+| **Cluster Analysis** | Used unsupervised-learning principles including data standardisation, distance-based similarity, cluster formation, validation, and interpretation of segments where labelled outcomes were unavailable. |
+| **AAPL Stochastic-Volatility Modelling** | Modelled time-varying uncertainty in Apple stock returns in R with `stochvol`, combining time-series preparation, stochastic-volatility estimation, uncertainty analysis, diagnostic interpretation, and clear presentation of results. |
+| **Statistical Foundations** | Applied probability, sampling, estimation, hypothesis testing, regression, time-series reasoning, uncertainty quantification, and careful distinction between association, prediction, and causal interpretation. |
 
-## Featured analytics work
+## Applied machine learning, analytics and BI
 
 | Project | Focus | Stack |
 |:---|:---|:---|
 | [**ED Pulse — Emergency Department Analytics**](https://public.tableau.com/app/profile/alabi.abiodun/viz/EmergencyDepartmentAnalytics_17876744117970/EDPulseIntroduction) | Patient demand, flow, clinical indicators, referrals, age groups, and operational patterns across a multi-page dashboard | Tableau, calculated fields, healthcare analytics |
-| **GlucoInsight — Diabetes Risk Analytics** | Clinical, lifestyle, and demographic risk patterns alongside classification-model performance | Python, Tableau, Power BI, classification |
-| **Mental Health Analytics** | Demographic, lifestyle, workplace, and mental-health patterns presented through three connected dashboard views | Tableau, Power BI, data preparation |
+| **GlucoInsight — Diabetes Risk Classification** | Clinical, lifestyle, and demographic risk analysis alongside classification-model performance, feature behaviour, and country-level patterns | Python, scikit-learn, Tableau, Power BI |
+| **Mental Health Pattern Analysis** | Demographic, lifestyle, workplace, and mental-health relationships presented through three connected analytical views | Tableau, Power BI, data preparation |
 | **Stock Market Analytics** | Price and return trends, company comparison, gain/loss measures, Top-N analysis, and daily refresh tracking | Tableau, financial analytics, time series |
-| **Apple Stock Volatility** | MSc research on time-varying uncertainty in Apple stock returns using stochastic-volatility methods | R, `stochvol`, statistical modelling |
 | **Healthcare Analysis in R** | Reproducible encounter-level cleaning, clinic summaries, patient-level record checks, orphan-record detection, monthly trends, and validation of missing or implausible values | R, `tidyverse`, `lubridate`, `ggplot2` |
 | **Power BI Data Models and Dashboards** | Developed decision-focused reports with dimensional models, date tables, DAX measures, filter context, clear KPI definitions, exceptions, trends, and refresh indicators | Power BI, Power Query, DAX, star schema |
 | **Abuja Prep Search Performance** | Search queries, pages, countries, devices, clicks, impressions, weighted CTR, and weighted position | Tableau, Search Console data |
 | **Excel Financial Reconciliation and Transformation** | Reconciled statements and workbooks, verified balances and transaction direction, identified discrepancies, applied controlled transformation rules, and preserved an audit-friendly record of changes | Excel, PivotTables, validation, reconciliation |
-| **Machine Learning and Deep Learning Studies** | Reproducible classification and neural-network workflows, model comparison, tuning, evaluation, and clear reporting of limitations | Python, scikit-learn, TensorFlow |
 
 ## Public-health systems
 
